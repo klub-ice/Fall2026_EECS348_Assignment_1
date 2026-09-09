@@ -4,7 +4,7 @@ Author: Zoey Spies
 KUID: 3136594
 Date: 9/8/2026
 Purpose: To store a fixed secret number and have the user guess it
-Collaborators: Copilot and Claude
+Collaborators: Copilot, Claude, EECS 348 notes
 */
 
 #include <stdio.h>
@@ -12,7 +12,7 @@ Collaborators: Copilot and Claude
 int main() {
     int secret = 7;   // Fixed secret number
     int guess; // Varrible to store the guess of the user
-    int i; //creates an iterator that will be used during the for loop
+    int i; // creates an iterator that will be used during the for loop
 
     printf("Guess the secret number (1-10).\n"); // Prints a statement establishing the game
     printf("You have 3 guesses.\n"); // Gives user number of Guesses
