@@ -7,7 +7,6 @@ Purpose: To store a fixed secret number and have the user guess it
 Collaborators: Copilot and Claude
 */
 
- */
 #include <stdio.h>
 
 int main() {
